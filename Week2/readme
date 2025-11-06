@@ -7,16 +7,16 @@ crossover, mutation, and gene expression to find optimal or near-optimal solutio
 effective for solving complex optimization problems in various domains, including engineering,
 data analysis, and machine learning.
 Implementation Steps:
-1. Define the Problem: Create a mathematical function to optimize.
-2. Initialize Parameters: Set the population size, number of genes, mutation rate, crossover
-rate, and number of generations.
-3. Initialize Population: Generate an initial population of random genetic sequences.
-4. Evaluate Fitness: Evaluate the fitness of each genetic sequence based on the optimization
-function.
-5. Selection: Select genetic sequences based on their fitness for reproduction.
-6. Crossover: Perform crossover between selected sequences to produce offspring.
-7. Mutation: Apply mutation to the offspring to introduce variability.
-8. Gene Expression: Translate genetic sequences into functional solutions.
-9. Iterate: Repeat the selection, crossover, mutation, and gene expression processes for a
-fixed number of generations or until convergence criteria are met.
-10. Output the Best Solution: Track and output the best solution found during the iterations.
+  1. Define the Problem: Create a mathematical function to optimize.
+  2. Initialize Parameters: Set the population size, number of genes, mutation rate, crossover
+    rate, and number of generations.
+  3. Initialize Population: Generate an initial population of random genetic sequences.
+  4. Evaluate Fitness: Evaluate the fitness of each genetic sequence based on the optimization
+    function.
+  5. Selection: Select genetic sequences based on their fitness for reproduction.
+  6. Crossover: Perform crossover between selected sequences to produce offspring.
+  7. Mutation: Apply mutation to the offspring to introduce variability.
+  8. Gene Expression: Translate genetic sequences into functional solutions.
+  9. Iterate: Repeat the selection, crossover, mutation, and gene expression processes for a
+    fixed number of generations or until convergence criteria are met.
+  10. Output the Best Solution: Track and output the best solution found during the iterations.
