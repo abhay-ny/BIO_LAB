@@ -1,0 +1,18 @@
+Grey Wolf Optimizer (GWO):
+The Grey Wolf Optimizer (GWO) algorithm is a swarm intelligence algorithm inspired by the
+social hierarchy and hunting behavior of grey wolves. It mimics the leadership structure of
+alpha, beta, delta, and omega wolves and their collaborative hunting strategies. The GWO
+algorithm uses these social hierarchies to model the optimization process, where the alpha
+wolves guide the search process while beta and delta wolves assist in refining the search
+direction. This algorithm is effective for continuous optimization problems and has
+applications in engineering, data analysis, and machine learning.
+Implementation Steps:
+  1. Define the Problem: Create a mathematical function to optimize.
+  2. Initialize Parameters: Set the number of wolves and the number of iterations.
+  3. Initialize Population: Generate an initial population of wolves with random positions.
+  4. Evaluate Fitness: Evaluate the fitness of each wolf based on the optimization function.
+  5. Update Positions: Update the positions of the wolves based on the positions of alpha, beta,
+    and delta wolves.
+  6. Iterate: Repeat the evaluation and position updating process for a fixed number of iterations
+    or until convergence criteria are met.
+  7. Output the Best Solution: Track and output the best solution found during the iterations
