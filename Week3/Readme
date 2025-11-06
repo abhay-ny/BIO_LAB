@@ -1,0 +1,17 @@
+Particle Swarm Optimization for Function Optimization:
+Particle Swarm Optimization (PSO) is inspired by the social behavior of birds flocking or fish
+schooling. PSO is used to find optimal solutions by iteratively improving a candidate solution
+with regard to a given measure of quality. Implement the PSO algorithm using Python to
+optimize a mathematical function.
+Implementation Steps:
+  1. Define the Problem: Create a mathematical function to optimize.
+  2. Initialize Parameters: Set the number of particles, inertia weight, cognitive and social
+    coefficients.
+  3. Initialize Particles: Generate an initial population of particles with random positions and
+    velocities.
+  4. Evaluate Fitness: Evaluate the fitness of each particle based on the optimization function.
+  5. Update Velocities and Positions: Update the velocity and position of each particle based on
+    its own best position and the global best position.
+  6. Iterate: Repeat the evaluation, updating, and position adjustment for a fixed number of
+    iterations or until convergence criteria are met.
+  7. Output the Best Solution: Track and output the best solution found during the iterations.
